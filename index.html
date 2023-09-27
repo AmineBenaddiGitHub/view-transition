@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-page="home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's learn view transitions</title>
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <!-- View transition meta-tag -->
+    <meta name="view-transition" content="same-origin" />
+  </head>
+  <body>
+    <section class="main">
+      <h1>Welcome to our store</h1>
+      <div class="container">
+        <article class="vegetables">
+          <a href="./vegetables.html">
+            <img src="./images/vegetables.jpg" alt="vegetables" />
+            <p>Visit our vegetables page</p>
+          </a>
+        </article>
+        <article class="fruits">
+          <a href="./fruits.html">
+            <img
+              src="./images/fruits.jpg"
+              alt="fruits"
+              style="view-transition-name: imageSlide" />
+            <p>Visit our fruits page</p>
+          </a>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
